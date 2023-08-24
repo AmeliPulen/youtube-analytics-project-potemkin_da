@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yt-analitics-project-potemkin-da"
+version = "0.1"
+description = "Makes analytics from information requested from youtube"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "yt_analitics_project_potemkin_da"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
