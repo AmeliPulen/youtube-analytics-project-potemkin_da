@@ -33,7 +33,7 @@ class Video():
             self.like_count = video_response['items'][0]['statistics']['likeCount']
             self.comment_count: int = video_response['items'][0]['statistics']['commentCount']
         except IndexError:
-            self.title = None
+            self.video_title = None
             self.view_count = None
             self.like_count = None
             self.comment_count = None
